@@ -12,8 +12,7 @@ public class Ground : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Optionally, set the color of the ground plane for visual distinction
-        GetComponent<Renderer>().material.color = groundColor;
+        
     }
 
     // Update is called once per frame

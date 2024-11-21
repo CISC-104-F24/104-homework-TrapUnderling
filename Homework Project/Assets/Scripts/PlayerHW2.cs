@@ -56,7 +56,7 @@ public class PlayerHW2 : MonoBehaviour
         }
 
         // Normalize the movement direction
-        movementDirection = movementDirection.normalized; // Ensures consistent speed
+        //movementDirection = movementDirection.normalized; // Ensures consistent speed
 
         // Move the player
         transform.position += movementDirection * moveSpeed * Time.deltaTime;
@@ -83,7 +83,8 @@ public class PlayerHW2 : MonoBehaviour
         }
 
         // Update ground state
-        UpdateGroundState();
+        //UpdateGroundState();
+        isGrounded = true;
     }
 
     void ChargeJump()
